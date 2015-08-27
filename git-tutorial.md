@@ -137,6 +137,19 @@ Click that button. GitHub will open up the 'Create a Pull Request Page'. It is p
 
 As soon as you hit the 'Create Pull Request' button, it'll show up in the list of pull requests and the bots will take over.
 
+### Submitting feedback on a Pull Request
+Once your case study Pull Request is available for all to see, people can comment on it. This is easily done directly in github, while viewing the Pull Request. Navigate to the `Commits` tab, and select the commit to comment on:
+
+![Viewing commits](./tutorial/commitlist.png)
+
+As you scroll through the added text, you'll see a `+` symbol floating atop each paragraph. Just click it to add a comment:
+
+![Click + to add comment](./tutorial/addcomment.png)
+
+![Enter comment text](./tutorial/entercomment.png)
+
+The author can now review these comments and make updates as appropriate, possibly via an updated commit+PR.
+
 ### Bonus: Squashing Commits
 You should commit often. It's a great backup and safety net in case you mess up. At the same time, you don't want your pull request to contain all your commits - in practice, a pull request should contain one commit. There are obvious exceptions to this rule (like epic projects - think 'Windows support for Docker'), but your little case study should most definitely be just one commit. For that to happen, we need to rewrite history.
 
